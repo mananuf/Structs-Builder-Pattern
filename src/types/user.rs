@@ -1,3 +1,6 @@
+use crate::types::account_type::AccountType;
+use crate::types::address::Address;
+
 #[derive(Debug)]
 pub struct User {
     pub fisrtname: String, // required
